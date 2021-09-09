@@ -6,16 +6,18 @@ import doctor from "../img/portImages/doctor.png";
 import riders from "../img/portImages/riders.png";
 import dream from "../img/portImages/dream.png";
 import hotel from "../img/portImages/hotel.png";
+import web from "../img/portImages/web.png";
 const portfolios = [
   {
     id: 1,
-    category: "CSS",
-    image: porto1,
-    link1: "https://github.com/sirazul263/portfolio1",
-    link2: "https://sirazul263.github.io/portfolio1/",
-    title: "Responsive Portfolio",
-    text: "Created with only HTML, CSS, Bootstrap and JQuery.",
+    category: "React JS",
+    image: web,
+    link1: "https://github.com/sirazul263/portofolio-using-styled-component",
+    link2: "https://sirazul263.vercel.app/",
+    title: "My Website",
+    text: "Created with Styled Component, React, Node.js, Express.js and MongoDb",
   },
+
   {
     id: 2,
     category: "CSS",
@@ -77,7 +79,16 @@ const portfolios = [
     link1: "https://github.com/sirazul263/book-a-hotel",
     link2: "https://book-a-hotel.vercel.app/",
     title: "Hotel Booking",
-    text: "A simple hotel booking system created with SASS, BootStrap and  React, Firebase, Node.js, Express.js and MongoDb",
+    text: "A simple hotel booking system created with SASS, BootStrap, React, Firebase, Node.js, Express.js and MongoDb",
+  },
+  {
+    id: 10,
+    category: "CSS",
+    image: porto1,
+    link1: "https://github.com/sirazul263/portfolio1",
+    link2: "https://sirazul263.github.io/portfolio1/",
+    title: "Responsive Portfolio",
+    text: "Created with only HTML, CSS, Bootstrap and JQuery.",
   },
 ];
 
