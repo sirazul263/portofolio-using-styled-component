@@ -10,6 +10,7 @@ import web from "../img/portImages/web.png";
 import whatsapp from "../img/portImages/whatsapp.png";
 import dice from "../img/portImages/dice.png";
 import pinMatcher from "../img/portImages/pin-matcher.png";
+import edakpeon from "../img/portImages/edakpeon.png";
 const portfolios = [
   {
     id: 1,
@@ -19,6 +20,15 @@ const portfolios = [
     link2: "https://sirazul263.vercel.app/",
     title: "My Website",
     text: "Created with Styled Component, React, Node.js, Express.js and MongoDb",
+  },
+  {
+    id: 15,
+    category: "React JS",
+    image: edakpeon,
+    link1: "",
+    link2: "https://edakpeon.com/",
+    title: "Edakpeon",
+    text: "An e-commerce",
   },
   {
     id: 11,
